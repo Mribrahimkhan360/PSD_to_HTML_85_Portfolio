@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.justify-content-between .lfet-part a{
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+	.flex-direction-column{
+		flex-direction: column;
+	}
+  }
+
+.header_bg{
+	background-image: url("../Img/header_bg.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 426px;
+	padding: 40px;
+}
+.header_bg h1{
+	color: #fff;
+	font-family: 'Lobster', cursive;
+}
+.header_bg h2{
+	color: #fff;
+	font-family: 'Lobster', cursive;
+}
+.header_bg h6{
+	letter-spacing: 9px;
+	color: #fff;
+}
+.header_bg .btn a{
+	text-decoration: none;
+	color: #fff;
+}
+.header_bg_2 .btn a{
+	text-decoration: none;
+	color: #fff;
+}
+.header_bg_2{
+	background-image: url("../Img/header_bg_2.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 426px;
+	padding: 40px;
+}
+.header_bg_2 h1{
+	color: #fff;
+	font-family: 'Lobster', cursive;
+	
+	
+}
+.header_bg_2 h2{
+	color: #fff;
+	font-family: 'Lobster', cursive;
+}
+.success-Button{
+	background-color: #CCB20D;
+	
+}
+
+/* The animation code */
+@keyframes text-animation {
+	0%   {color: #CCB20D;left:-1119px; right:0px;}
+	25%  {color:yellow; left:0px; right:0px;}
+	50%  {color:blue; left:0px; top:0px;}
+	75%  {color:green; left:0px; top:0px;}
+	100% {color:rgb(253, 251, 251); left:0px; top:0px;}
+  }
+  
+  /* The element to apply the animation to */
+  .animation {
+	position: relative;
+	color: #CCB20D;
+	animation-name: text-animation;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+	animation-timing-function: ease-out;
+  }
+
+ .col-md-3 .card .card-body:hover{
+	  background-color: #CCB20D;
+	  transition: 0.5s;
+  }
