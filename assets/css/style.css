@@ -8,6 +8,7 @@ html{
 }
 body{
 	scroll-behavior: smooth;
+	background-color: beige;
 }
 
 @media only screen and (max-width: 600px) {
@@ -102,3 +103,78 @@ body{
 	  background-color: #CCB20D;
 	  transition: 0.5s;
   }
+ .container .row .col-xl-6 .my-project{
+	  background-image: url('../Img/header_bg_2.jpg');
+	  height: 300px;
+	  
+  }
+
+  .right-container{
+	  padding: 30px 10px;
+	  
+  }
+.shadow-card{
+	box-shadow: 0 2px 25px -13px rgb(0 0 0 / 26%);
+}
+
+.year-stablish{
+	background-color: #cdb30c;
+	padding: 15px;
+    width: 300px;
+    margin-top: 40px;
+}
+.experience {
+    /* transform: translate(34%,86%); */
+}
+.experience:hover{
+	background-color:rgba(32, 177, 2, 0.8);
+	transition: .5s;
+	cursor: pointer;
+	transform: translate(40%,58%);
+}
+.experience .icon{
+	justify-content: center;
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	margin: 20px 20px;
+	position: relative;
+	background-color: darkred;
+	font-size: 20px;
+	color: cornsilk;
+}
+.experience .icon i{
+	position: absolute;	
+	padding: 13px;
+}
+
+.my-project{
+	position: relative;
+}
+.experience{
+	position: absolute;
+	box-shadow: 0 2px 25px -13px rgb(0 0 0 / 26%);
+	transform: translate(34%,58%);
+}
+.pracing-table-wrap{
+	
+}
+.price-item-tag {
+	padding: 5px 10px;
+	background-image: linear-gradient(90deg,#b1855f,#cba26a);
+	color: white;
+	font-weight: 700;
+}
+.pracing-table-wrap{
+	transition: .5s;
+	transform: scale(0.9);
+	display: block;
+	cursor: pointer;
+}
+.pracing-table-wrap:hover {
+    transform: scale(1);
+    display: block;
+    transform: rotate(720deg);
+    transition: .3s;
+    cursor: pointer;
+}
